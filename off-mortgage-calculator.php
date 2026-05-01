@@ -23,8 +23,8 @@ function off_calculator_function() { ?>
     <?php ob_start(); ?>
 
     <div class="off-mortgage-calculator">
-        <h1>35-Year Mortgage Calculator</h1>
-        <p>Estimate Your Monthly Payment for a 35-Year Mortgage:</p>
+        <h1>Mortgage Calculator</h1>
+        <p>Estimate Your Monthly Mortgage Payment (Up to 30 Years)</p>
         <form>
             <div class="mortgage">
                 <label><strong>Mortgage Amount ($):</strong></label>
@@ -48,7 +48,6 @@ function off_calculator_function() { ?>
                     <option value="20" selected>20 years</option>
                     <option value="25">25 years</option>
                     <option value="30">30 years</option>
-                    <option value="35">35 years</option>
                 </select>
             </div>
 
